@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Aclify::VERSION
   s.authors     = ["Sachin Dharmapurikar"]
   s.email       = ["sachin@dharmapurikar.in"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Aclify."
-  s.description = "TODO: Description of Aclify."
+  s.homepage    = "https://github.com/kodelounge/aclify"
+  s.summary     = "ACLify - Simplified ACL engine for Rails"
+  s.description = "Simple ACL engine which can be easily plugged with any authentication and authorization framekworks."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.5.1"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "mysql2"
 end
